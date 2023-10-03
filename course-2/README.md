@@ -1,3 +1,3 @@
  C++ course from HSE university (my bachelor degree). 
  
- No tests, just solutions.
+The folder doesn't contain tests and templates, only my solutions.
