@@ -1,2 +1,2 @@
 # cpp-projects
-This repository contains my solutions for c++ tasks.
+This repository contains some of my solutions for tasks on c++ language.
