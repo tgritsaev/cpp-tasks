@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for BRANCH in $(git branch -a | grep remotes | grep submits | grep -v HEAD | grep -v master); do
+    git branch --track "${BRANCH#remotes/origin/}" "${BRANCH}"
+    git merge "${BRANCH}" --allow-unrelated-histories -m "Merge task ${BRANCH}"
+    git add .gitlab-ci.yml
+    git commit -m "Fix conflict" --allow-empty
+    echo "Merged branch: ${BRANCH}"
+done
