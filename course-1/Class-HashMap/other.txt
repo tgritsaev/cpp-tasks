@@ -1,0 +1,17 @@
+
+
+
+template<class KeyType, class ValueType, class Hash = std::hash<KeyType> >
+class HashMap {
+private:
+    int cnt_elem = 0;
+    int size = 0;
+    std::vector<std::list<int>> a;
+public:
+    HashMap(Hash hasher = std::hash<KeyType>()) {}
+    HashMap(std::pair<KeyType, ValueType>& start, std::pair<KeyType, ValueType>& end, Hash hasher = std::hash<KeyType>()) {
+        for (KeyType it = start; it != end; ++it) {
+            a.
+        }
+    }
+};

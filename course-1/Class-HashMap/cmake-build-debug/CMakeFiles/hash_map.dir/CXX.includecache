@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/timgritsaev/CLionProjects/hash_map/hash_map.h
+list
+-
+vector
+-
+stdexcept
+-
+
+/Users/timgritsaev/CLionProjects/hash_map/main.cpp
+iostream
+-
+cstdlib
+-
+functional
+-
+stdexcept
+-
+map
+-
+hash_map.h
+/Users/timgritsaev/CLionProjects/hash_map/hash_map.h
+random
+-
+
